@@ -29,7 +29,7 @@ VS Code Live Server → Runs the project locally without debug mode.
 
 Clone the repository:
 
-git clone https://github.com/yourusername/MEDcare.git
+git clone https://github.com/sumitnawde10/MEDcare.git
 
 Open the folder in VS Code.
 
