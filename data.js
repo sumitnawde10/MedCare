@@ -1,13 +1,15 @@
-
+// Selects the <div> element with id="myDiv" where search results will be displayed
 const divElement = document.getElementById("myDiv");
 
 
             
-
+// Function to perform search and display relevant first aid information based on user input
 function performSearch () {
+  // Get the value of the search input
 const searchInput = document.getElementById("searchInput");
-const input = searchInput.value;
-  if (input === "first aid") {
+const input = searchInput.value; // Get the value of the search input
+//data  
+if (input === "first aid") {
     
     divElement.innerHTML = `
         <ul>
